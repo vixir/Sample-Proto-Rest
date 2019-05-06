@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package model;
+
+option java_package = "vi.practice.services.protobuf.home.model";
+option java_outer_classname = "HomeProto";
+
+message Homes {
+    repeated Home home = 1;
+}
+
+message Home {
+
+    int32 id = 1;
+    string rooms = 2;
+    int32 owner_id = 3;
+
+}
