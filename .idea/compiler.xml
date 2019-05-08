@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="generate-proto-jar" />
+        <module name="home-service" />
+        <module name="customer-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="customer-service" target="1.5" />
+      <module name="generate-proto-jar" target="1.5" />
+      <module name="home-service" target="1.5" />
+      <module name="Sample-Proto-Rest" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

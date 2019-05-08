@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Sample-Proto-Rest.iml" filepath="$PROJECT_DIR$/.idea/Sample-Proto-Rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generate-proto-jar/generate-proto-jar.iml" filepath="$PROJECT_DIR$/generate-proto-jar/generate-proto-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-service/home-service.iml" filepath="$PROJECT_DIR$/home-service/home-service.iml" />
     </modules>
   </component>
 </project>

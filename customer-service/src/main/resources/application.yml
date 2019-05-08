@@ -1,0 +1,9 @@
+server:
+  port: ${PORT:8083}
+
+spring:
+  application:
+    name: customer-service
+
+ribbon:
+  listOfServers: localhost:2222

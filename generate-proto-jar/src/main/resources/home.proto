@@ -1,4 +1,4 @@
-syntax = "proto3";
+syntax = "proto2";
 
 package model;
 
@@ -11,8 +11,8 @@ message Homes {
 
 message Home {
 
-    int32 id = 1;
-    string rooms = 2;
-    int32 owner_id = 3;
+    required int32 id = 1;
+    required string rooms = 2;
+    required int32 owner_id = 3;
 
 }
