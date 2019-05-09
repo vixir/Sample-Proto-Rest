@@ -3,8 +3,8 @@ package vi.practice.customer.service;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.*;
 import vi.practice.customer.contract.*;
-import vi.practice.customer.contract.services.protobuf.customer.model.*;
 import vi.practice.customer.data.*;
+import vi.practice.services.protobuf.customer.model.*;
 
 import java.util.logging.*;
 

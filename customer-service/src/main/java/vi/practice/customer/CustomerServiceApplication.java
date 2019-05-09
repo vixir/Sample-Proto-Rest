@@ -9,16 +9,16 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.protobuf.ProtobufHttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
-import vi.practice.customer.contract.services.protobuf.customer.model.*;
 import vi.practice.customer.data.*;
+import vi.practice.services.protobuf.customer.model.*;
 
 
 @SpringBootApplication
 @EnableFeignClients
-public class Application {
+public class CustomerServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CustomerServiceApplication.class, args);
     }
 
     @Bean

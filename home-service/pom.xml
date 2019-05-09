@@ -10,6 +10,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>home-service</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
@@ -24,11 +36,16 @@
             <groupId>com.googlecode.protobuf-java-format</groupId>
             <artifactId>protobuf-java-format</artifactId>
         </dependency>
-        <dependency>
+     <!--   <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>2.1.4.RELEASE</version>
             <scope>test</scope>
+        </dependency>-->
+        <dependency>
+            <groupId>vi.practice</groupId>
+            <artifactId>generate-proto-jar</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

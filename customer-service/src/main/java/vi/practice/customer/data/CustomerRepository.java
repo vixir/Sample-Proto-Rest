@@ -1,6 +1,7 @@
 package vi.practice.customer.data;
 
-import vi.practice.customer.contract.services.protobuf.customer.model.*;
+
+import vi.practice.services.protobuf.customer.model.*;
 
 import java.util.*;
 
