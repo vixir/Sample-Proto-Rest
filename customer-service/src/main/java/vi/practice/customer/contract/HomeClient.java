@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import vi.practice.services.protobuf.customer.model.*;
 
-@FeignClient(value = "home-service")
+@FeignClient(value = "home-service", url = "http://localhost:8065")
 public interface HomeClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/homes/customer/{customerId}")
