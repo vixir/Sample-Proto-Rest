@@ -12,7 +12,7 @@ import java.util.logging.*;
 public class HomeController {
 
     @Autowired
-    HomeRepository repository;
+    private HomeRepository repository;
 
     protected Logger logger = Logger.getLogger(HomeController.class.getName());
 

@@ -1,7 +1,7 @@
 package vi.practice.customer.data;
 
 
-import vi.practice.services.protobuf.customer.model.*;
+import protobuf.customer.model.*;
 
 import java.util.*;
 

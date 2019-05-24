@@ -2,9 +2,9 @@ package vi.practice.customer.service;
 
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.*;
+import protobuf.customer.model.*;
 import vi.practice.customer.contract.*;
 import vi.practice.customer.data.*;
-import vi.practice.services.protobuf.customer.model.*;
 
 import java.util.logging.*;
 
@@ -12,10 +12,10 @@ import java.util.logging.*;
 public class CustomerController {
 
     @Autowired
-    CustomerRepository repository;
+    private CustomerRepository repository;
 
     @Autowired
-    HomeClient homeClient;
+    private HomeClient homeClient;
 
     protected Logger LOGGER = Logger.getLogger(CustomerController.class.getName());
 
